@@ -43,7 +43,7 @@ print('Coefficient of determination (R2 score): %.2f'
       % r2_score(diabetes_y_test, diabetes_y_pred))
 
 # Plot outputs
-plt.scatter(diabetes_X_train, diabetes_y_train,  color='black')
+plt.scatter(diabetes_X_train, diabetes_y_train, color='black')
 plt.plot(diabetes_X_test, diabetes_y_pred, color='green', linewidth=3)
 # plt.xticks(range(min(valueX), max(valueX)+1))
 # plt.xticks(())
